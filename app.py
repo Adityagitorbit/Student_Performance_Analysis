@@ -14,8 +14,8 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/predict_datapoint', methods=['GET', 'POST'])
-def predict_datapoint():
+@app.route('/predict_data', methods=['GET', 'POST'])
+def predict_data():
     if request.method == 'GET':
         return render_template('home.html')
     else:
@@ -42,4 +42,4 @@ def predict_datapoint():
 
 
 if __name__=="__main__":
-    app.run(host="0.0.0.0")   
+    app.run(port=5000)#(host="0.0.0.0")   

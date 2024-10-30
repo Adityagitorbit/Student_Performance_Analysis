@@ -1,1 +1,18 @@
-<h1>Hello World</h1>
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <h1>Welcome to the Index Page</h1>
+    
+    <!-- Form to go to /predict_data -->
+    <form action="{{ url_for('predict_data') }}" method="get">
+        <button type="submit">Go to Prediction Page</button>
+    </form>
+
+</body>
+</html>
