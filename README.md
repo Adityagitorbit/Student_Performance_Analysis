@@ -59,15 +59,14 @@ The project methodology includes the following steps:
 ## Exploratory Data Analysis (EDA)
 During the EDA phase, various visualizations helped uncover trends and correlations, providing valuable insights into relationships within the data:
 
-### Total Score Distribution by Gender
-
+### 1. Total Score Distribution by Gender
 ![Total Score Distribution by Gender](images/Total_Score_Distribution_by_Gender.jpeg)
 
 A histogram comparing total score distributions across genders. The left plot shows the general distribution, with most scores concentrated around the mean, while the right plot contrasts male and female distributions. This reveals any performance discrepancies that may exist between genders, though both distributions largely follow similar shapes.
 
 
 
-### Violin Plots of Math, Reading, and Writing Scores
+### 2. Violin Plots of Math, Reading, and Writing Scores
 
 ![Violin Plots of Scores](images/Violin_Plots_of_Math_Reading_and_Writing_Scores.jpeg)
 
@@ -75,7 +74,7 @@ Violin plots illustrating score distributions in math, reading, and writing. Mat
 
 
 
-### Demographic Distribution
+### 3. Demographic Distribution
 
 ![Demographic Distribution](images/Demographic_Distribution.jpeg)
 
@@ -92,6 +91,24 @@ A horizontal bar chart displaying average scores in math, reading, and writing, 
 
  **Comparison of Lunch Types**
 A bar chart showing the number of students by lunch type (standard vs. free/reduced). This visualization helps illustrate socioeconomic disparities, as students on reduced lunch programs may face additional challenges affecting their performance.
+
+### 4. Math, Reading, and Writing Scores by Race/Ethnicity
+   ![Math, Reading, Writing Scores by Race/Ethnicity](images/Ethnicity.jpeg)
+   - **Description:** This image displays bar charts comparing the average scores for math, reading, and writing across different race/ethnicity groups (group A to group E). Each bar represents the average score in a specific subject for students within each group. Notably, Group E has the highest average scores across all subjects, suggesting a potential correlation between ethnicity and academic performance. This visualization helps identify performance disparities among demographic groups.
+
+### 5. Comparison of Parental Education Levels
+   ![Comparison of Parental Education Levels](images/Comparison_of_Parental_Education_Levels.jpeg)
+   - **Description:** This bar chart illustrates the distribution of parental education levels among students, categorizing them by degree attainment (e.g., some college, associate's degree, high school). The chart highlights that the majority of parents have attended some college or have an associate's degree. This distribution helps contextualize how parental educational attainment varies among students and could potentially impact student performance, as indicated by other findings in the project.
+
+### 6. Average Scores by Parental Education Levels
+   ![Average Scores by Parental Education Levels](images/Parental_Education_Levels.jpeg)
+   - **Description:** This grouped bar chart shows the average scores in math, reading, and writing based on parental education levels. Each education level (e.g., bachelor's degree, high school) is associated with the student's scores in each subject. The visualization indicates that students whose parents have higher education levels tend to achieve better scores, especially in math and reading, reinforcing the importance of parental influence on academic outcomes.
+
+### 7. Comparison of Lunch Types
+   ![Comparison of Lunch Types](images/Comparison_of_Lunch_Types.jpeg)
+   - **Description:** This bar chart displays the distribution of students based on lunch type, distinguishing between standard and free/reduced lunch programs. The count of students in each category suggests socioeconomic differences within the dataset, as students on free/reduced lunch programs may face additional challenges impacting their performance. The visualization highlights potential socioeconomic factors that could influence academic outcomes.
+
+
 
 ## Feature Engineering and Selection
 Based on the insights from EDA, several key features were selected or engineered to improve model accuracy. New features such as parental education level were included, and existing features were transformed to capture complex relationships within the data.
