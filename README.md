@@ -130,8 +130,6 @@ To create a robust predictive model, several machine learning algorithms were ev
 
 4. **Random Forest Regressor**
    - **Description**: An ensemble model that combines multiple decision trees, averaging their outputs for improved performance.
-   
-...(and so on for each model)
 
 ## Evaluation Metrics
 Each model was evaluated using the following metrics:
